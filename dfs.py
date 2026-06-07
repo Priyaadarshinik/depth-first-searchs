@@ -2,7 +2,7 @@
 
 '''Depth First Search uses STACK AND RECURSION
 '''
-#Depth First Search 
+#import defaultdict
 from collections import defaultdict
 def dfs(graph, start, visited, path):
     path.append(start)  
